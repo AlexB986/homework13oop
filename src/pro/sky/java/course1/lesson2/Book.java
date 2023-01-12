@@ -36,9 +36,13 @@ public class Book {
     }
 
 
+
     @Override
     public boolean equals(Object other) {
-        if (this.getClass() != other.getClass()) {
+        if(this== other){
+            return true;
+        }
+        if ( other==null || this.getClass() != other.getClass()) {
             return false;
         }
         Book book = (Book) other;

@@ -19,7 +19,7 @@ public class Main {
         Author bulgakov1 = new Author("Mihail", "Bulgakov");  //*Author equals
         System.out.println("Author " + bulgakov.equals(bulgakov1));
 
-        Book masterAndMargarita1 = new Book("Master and Margarita", 1940, bulgakov1); //*Book equals
+        Book masterAndMargarita1 = new Book("Master and Margarita", 1940, bulgakov); //*Book equals
         System.out.println("Book " + masterAndMargarita.equals(masterAndMargarita1));
 
 
